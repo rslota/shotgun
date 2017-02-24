@@ -1,3 +1,12 @@
-[{<<"cowlib">>,{pkg,<<"cowlib">>,<<"1.3.0">>},1},
- {<<"gun">>,{pkg,<<"gun">>,<<"1.0.0-pre.1">>},0},
- {<<"ranch">>,{pkg,<<"ranch">>,<<"1.1.0">>},1}].
+[{<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"4c9fe1f532ac7943361cac81c2edd4484790ae68"}},
+  1},
+ {<<"gun">>,
+  {git,"git://github.com/ninenines/gun.git",
+       {ref,"bc733a2ca5f7d07f997ad6edf184f775b23434aa"}},
+  0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"a004ad710eddd0c21aaccc30d5633a76b06164b5"}},
+  1}].
